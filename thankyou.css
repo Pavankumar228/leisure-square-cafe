@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+    max-width: 500px;
+    height: 250px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+}
+.booked{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.visit{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 160px;
+}
